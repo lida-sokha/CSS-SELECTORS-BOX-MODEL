@@ -1,0 +1,40 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+.box{
+    background-color: white;
+    border-radius: 5px;
+    padding:20px;
+    margin: 0px 100px 30px 100px;
+}
+.button{
+    padding:10px;
+    border-radius: 30px;
+    border: none;
+    color:white;
+    transition: 0.3s;
+}
+.button-1{
+    background-color:#25be89;
+}
+.button-2{
+    background-color: orange;
+    color:black;
+}
+.button-3{
+    background-color: purple;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.button-1:hover{
+    border: 1px solid #25be89;
+}
+.button-2:hover{
+    border: 1px solid orange;
+}
+.button-3:hover{
+    border: 1px solid purple;
+}
